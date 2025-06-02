@@ -1,0 +1,50 @@
+
+body{
+  margin-top:100px;
+  padding-top: 0;
+}
+.frueling-intro-photo{
+  background-image: url('anh-5-mam-co-ngay-tet-mien-bac-874.jpg');
+  height:900px;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.food-frueling-source{ position: absolute; right:0px; bottom: 0px; color:white; 
+}
+.food-frueling-title{ color:white; font-size: 70px; font-weight: bold; 
+} 
+.frueling-main{ margin-top: 30px; margin-left:350px; margin-right:350px; word-break: break-word; overflow-wrap: break-word; 
+} 
+.Frueling-main-title{ color:black; font-size: 30px; margin-bottom: 30px; 
+} 
+.food-frueling-nameoffood{ margin-top:30px; font-size: 20px; margin-bottom: 20px;
+}  
+.food-frueling-foodcontent{ font-size: 20px; margin-top:20px;
+margin-bottom: 30px;
+}
+.food-frueling-photocontent{
+  width:100%;
+  object-fit: contain;
+  
+}
+.food-frueling-mapicon{
+  height:40px;
+}
+#scroll-button{
+  display:none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px;
+  background-color:bisque;
+  color:black;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 99;
+}

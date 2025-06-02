@@ -1,0 +1,50 @@
+
+body{
+  margin-top:100px;
+  padding-top: 0;
+}
+.sommer-intro-photo{
+  background-image: url('Hoa-Phuong.1.jpg');
+  height:900px;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.food-sommer-source{ position: absolute; right:0px; bottom: 0px; color:white; 
+}
+.food-sommer-title{ color:white; font-size: 70px; font-weight: bold; 
+} 
+.sommer-main{ margin-top: 30px; margin-left:300px; margin-right:300px; word-break: break-word; overflow-wrap: break-word; 
+} 
+.sommer-main-title{ color:black; font-size: 30px; margin-bottom: 30px; 
+} 
+.food-sommer-nameoffood{ margin-top:30px; font-size: 20px; margin-bottom: 20px;
+}  
+.food-sommer-foodcontent{ font-size: 20px; margin-top:20px;
+margin-bottom: 30px;
+}
+.food-sommer-photocontent{
+  width:100%;
+  object-fit: contain;
+  
+}
+.food-sommer-mapicon{
+  height:40px;
+}
+#scroll-button{
+  display:none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px;
+  background-color:bisque;
+  color:black;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 99;
+}
